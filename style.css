@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+h1 {
+  padding: 1em;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #e5c890;
+  color: #4c4f69;
+}
+
+#left {
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin: 0;
+  bottom: 0;
+  width: 50%;
+  color: #eff1f5;
+}
+
+#noteName {
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  border-color: #eff1f5;
+  padding: 0.5%;
+  font-family: 'Roboto', sans-serif;
+}
+
+#noteContent {
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  border-top-right-radius: 1em;
+  border-color: #eff1f5;
+  padding: 1%;
+  max-width: 38%;
+  min-width: 20%;
+  font-family: 'Roboto', sans-serif;
+}
+
+button{
+    background-color: #4c4f69 ;
+    color: #eff1f5;
+    font-size: 0.8em;
+    border-radius: 7px;
+    border: none;
+    padding: 1% 1%;
+    text-align: center;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}

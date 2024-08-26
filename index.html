@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="theme-color" content="#6a1b9a">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/gh/DoxrGitHub/catppuccin@main/bg.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/icon_512.png">
+    <link rel="manifest" href="manifest.json">
+  </head>
+  <body>
+      <h1>DoxrPad</h1>
+      <div id="notepad">
+        <form id="noteForm">
+          <input type="text" id="noteName" placeholder="Note Name" required>
+          <br>
+          <textarea id="noteContent" rows="5" cols="30" placeholder="Enter your note here..." required></textarea>
+          <br>
+          <button type="submit">Save Note</button>
+          <button type="button" onclick="importFile()">Import File</button>
+          <button type="button" onclick="exportFileAs()">Export Note As</button>
+        </form>
+      </div>
+    <div id="left">
+      <h2>Previous Notes:</h2>
+      <ul id="notesList"></ul>
+    </div>
+    <script src="client.js"></script>
+    <script src="main.js"></script>
+    <script src="pwa-install.js"></script>
+  </body>
+</html>

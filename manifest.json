@@ -1,0 +1,35 @@
+{
+  "name": "DoxrPad",
+  "display": "fullscreen",
+  "start_url": "/",
+  "short_name": "DoxrPad",
+  "theme_color": "#eff1f5",
+  "description": "Simple Website Notepad",
+  "orientation": "portrait",
+  "background_color": "#eff1f5",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "icon_512.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "maskable_icon.png",
+      "sizes": "640x640",
+      "type": "image/png",
+      "purpose": "maskable"     
+    }
+  ],
+  "features": [
+    "Cross Platform",
+    "Open Source",
+    "Simple",
+    "Zero cookies",
+    "No tracking",
+    "Zero ads",
+    "Clean",
+    "FOSS",
+    "No sign up"
+  ]
+}
